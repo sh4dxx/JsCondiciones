@@ -14,8 +14,13 @@ section {
 }
 
 img {
-  width: 400px;
+  width: 350px;
   margin-bottom: 5px;
+}
+
+.img-contain {
+  aspect-ratio: 4/3;
+  object-fit: contain;
 }
 
 select {
